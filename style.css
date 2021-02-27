@@ -1,0 +1,117 @@
+div {
+    width: 500px;
+    height: 250px;
+    background-color: #C8FE2E;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo {
+    0% {background-color:#FBEFEF; left: 0px; top: 0px;}
+    25% {background-color:#F8E0E0; left: 0px; top: 0px;}
+    50% {background-color:#F6CECE; left: 0px; top: 0px;}
+    75% {background-color:#F5A9A9; left: 0px; top: 0px;}
+    100% {background-color:#F78181; left: 0px; top: 0px;}
+    75% {background-color:#F5A9A9; left: 0px; top: 0px;}
+    50% {background-color:#F6CECE; left: 0px; top: 0px;}
+    25% {background-color:#F8E0E0; left: 0px; top: 0px;}
+}
+div.background   
+{
+width:600px;
+height:400px;
+background:url(klematis.jpg) repeat;
+background-color: #C8FE2E;
+border:2px solid rgba(0, 0, 0, 0.612);
+}
+div.transbox
+{
+width:500px;
+height:315px;
+margin:30px 50px;
+background-color:#AEB404;
+border:1px solid black;
+opacity:0.6;
+filter:alpha(opacity=60); /* For IE8 and earlier */
+seletor {transition: color 0,5s ease 1s}
+}
+div.transbox p
+{
+margin:30px 40px;
+font-weight:bold;
+color:#000000;
+}
+
+
+div
+{
+width:100px;
+height:100px;
+background:red;
+transition:width 2s;
+-webkit-transition: perspectiv (600); width 0,5s; /* Chrome */
+}
+
+div:hover
+{
+width:300px;
+}
+
+
+body {
+background: #E6E6E6;
+}
+
+header, nav {
+text-align: center;
+background: white;
+margin: 20px 0;
+padding: 10px;
+}
+
+nav a {
+text-decoration: none;
+background: #BDBDBD;
+border-radius: 5px;
+color: white;
+padding: 3px 8px;
+}
+
+div {
+background: white;
+width: 240px;
+margin: 20px;
+}
+
+.flex-centralizado {
+border: 10px solid white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 200px;
+resize: vertical;
+overflow: auto;
+}
+.flex-centralizado p {
+margin: 0;
+padding: 20px;
+}
+
+.container {
+width: 100vw;
+height: 100vh;
+background: #6C7A89;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center
+}
+.box {
+width: 300px;
+height: 300px;
+background: #fff;
+}
+body {
+margin: 0px;
+}
